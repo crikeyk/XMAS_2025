@@ -1,0 +1,192 @@
+(footprint "AAA cutout"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ecdc5ca0-a0f9-46b2-9b21-07ce8db5ca36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AAA cutout"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c527df96-d38e-4b1f-adf5-0d4269a3ec9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50481011-9d18-4ace-8414-e410b6959784")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5b14e52-f216-4483-a80f-5d96d44d7dea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field4" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3a09789c-ff76-487c-bb3a-d0c5070e0ac4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.5 -23.499999)
+		(end -5.5 23.499999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec97ed80-940f-4dd3-881c-2c205eb4cb17")
+	)
+	(fp_line
+		(start -4 -25)
+		(end 4 -25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb017be5-6168-4915-aae7-a0cf783606a3")
+	)
+	(fp_line
+		(start -4 25)
+		(end 4 25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3deeae86-8cc4-4d06-8460-65e3abab18ce")
+	)
+	(fp_line
+		(start 5.5 -23.5)
+		(end 5.5 23.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fb0fd46f-08bf-4f75-b599-5f3436a79db7")
+	)
+	(fp_arc
+		(start -5.5 -23.5)
+		(mid -5.06066 -24.56066)
+		(end -4 -25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4c896155-14d6-4638-93f0-f8dc27e2f7dd")
+	)
+	(fp_arc
+		(start -4 25)
+		(mid -5.06066 24.56066)
+		(end -5.5 23.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "370d473c-1842-4e93-832a-ecbddcff22ae")
+	)
+	(fp_arc
+		(start 4 -25)
+		(mid 5.06066 -24.56066)
+		(end 5.5 -23.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9cff0496-4b3a-4d35-ba6e-f17854492719")
+	)
+	(fp_arc
+		(start 5.5 23.5)
+		(mid 5.06066 24.56066)
+		(end 4 25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dcf9b612-9e22-4ad4-9e74-3c00a1d14b5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "59639d26-9532-417a-aeca-182c5aa278f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -29)
+		(size 7 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "8f154647-53ef-47ec-9e4e-bc6b8802fcee")
+	)
+	(pad "2" smd roundrect
+		(at 0 29)
+		(size 7 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "cfc31fae-1d0a-4cd1-9403-7eb3d2a65435")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/HarryKreicers/Downloads/aaa-battery--2/AAA Battery.STEP"
+		(offset
+			(xyz 0 -22 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
+)
